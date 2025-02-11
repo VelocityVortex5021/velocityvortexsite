@@ -1,0 +1,33 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-align: center;
+}
+
+.navitem {
+    float: left;
+    padding-right: 11%;
+    padding-left: 11%;
+    background-color: black;
+    margin: 0%;
+}
+
+.activenavitem {
+    float: left;
+    padding-right: 11%;
+    padding-left: 11%;
+    background-color: orange;
+    margin: 0%;
+}
+
+#activenavtext {
+
+}
+
+#navtext {
+    color: white;
+    font-style: normal;
+    
+}
