@@ -7,23 +7,23 @@
 }
 
 .navitem {
-    float: left;
-    padding-right: 11%;
-    padding-left: 11%;
+    text-align: center;
+    display: inline;
+    padding-right: 5%;
+    padding-left: 5%;
     background-color: black;
-    margin: 0%;
 }
 
 .activenavitem {
     float: left;
-    padding-right: 11%;
-    padding-left: 11%;
+    text-align: center;
+    padding-right: 12%;
+    padding-left: 12%;
     background-color: orange;
-    margin: 0%;
 }
 
 #activenavtext {
-
+    
 }
 
 #navtext {
