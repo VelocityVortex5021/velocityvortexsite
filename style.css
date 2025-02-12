@@ -2,41 +2,46 @@
 .navbar {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Always center items */
+    align-items: center;
     background: #222;
-    padding: 10px 0;
+    padding: 4% 0; /* Bigger navbar */
     margin: 0;
+    gap: 30px; /* More spacing between items */
+    flex-wrap: nowrap; /* Prevent stacking */
+    overflow-x: auto; /* Allows scrolling if necessary */
+    white-space: nowrap; /* Prevents text wrapping */
 }
 
 .navitem {
-    margin: 0 15px;
+    margin: 0;
+    min-width: max-content; /* Prevents items from shrinking too much */
 }
 
 .navlink {
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    padding: 8px 12px;
-    transition: color 0.3s ease-in-out;
+    font-size: 20px; /* Bigger text */
+    padding: 12px 16px; /* Bigger clickable area */
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .navlink:hover {
     color: #ff7033;
+    transform: scale(1.1);
 }
 
 /* Active Page Highlight */
 .current {
     font-weight: bold;
-    border-bottom: 2px solid #ff7033;
+    border-bottom: 3px solid #ff7033;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .navitem {
-        margin: 5px 0;
+        padding: 5% 10px; /* Ensures proper spacing */
+        overflow-x: auto; /* Enables horizontal scrolling if needed */
+        justify-content: center; /* Keeps items centered on smaller screens */
     }
 }
