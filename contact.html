@@ -45,15 +45,14 @@
 
     <script>
         (function(){
-            emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+            emailjs.init("emLMPxbB1jZiy7Dop"); // Replace with your EmailJS user ID
         })();
-
         document.getElementById("contact-form").addEventListener("submit", function(event){
             event.preventDefault();
 
             const form = event.target;
 
-            emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form)
+            emailjs.sendForm("service_dyhqveu", "template_vvvhr1w", form)
                 .then((response) => {
                     alert("Message sent successfully!");
                 })
