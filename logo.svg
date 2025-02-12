@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="750"
+   height="750"
+   viewBox="0 0 198.43751 198.43749"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Logo Prototype -2.svg"
+   inkscape:export-filename="Logo Prototype -2.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title27">Logo Prototype-2</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="337.64349"
+     inkscape:cy="394.56558"
+     inkscape:window-width="2560"
+     inkscape:window-height="1566"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffff00" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient15"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.90858203"
+         id="stop17" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.90858203"
+         id="stop15" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.96641791"
+         id="stop16" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.96641791"
+         id="stop19" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8">
+      <g
+         inkscape:label="Clip"
+         id="use8"
+         style="fill:#008a99;fill-opacity:1">
+        <path
+           style="fill:#008a99;fill-opacity:1;stroke-width:0.264583;image-rendering:optimizeQuality"
+           d="M 1.3688317,34.065073 24.320268,131.04498 c 0,0 107.032462,3.93795 110.770892,-72.390304 C 117.36574,26.123618 10.459565,30.222142 1.3688317,34.065073 Z"
+           id="path14"
+           sodipodi:nodetypes="cccc"
+           inkscape:highlight-color="#3b8000" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <g
+         id="g4"
+         transform="matrix(0.78066353,0,0,0.78066353,0.71332212,11.813337)">
+        <use
+           x="0"
+           y="0"
+           xlink:href="#g11"
+           id="use3" />
+      </g>
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15"
+       id="radialGradient16"
+       cx="100.05843"
+       cy="124.43996"
+       fx="100.05843"
+       fy="124.43996"
+       r="96.837502"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.83968258,-25.221203)">
+    <circle
+       style="opacity:1;fill:url(#radialGradient16);fill-opacity:1;stroke-width:0.235614"
+       id="path15"
+       cx="100.05843"
+       cy="124.43996"
+       r="96.837502" />
+    <g
+       id="g14"
+       transform="matrix(0.89051095,0,0,0.89051095,30.573916,44.830565)">
+      <g
+         inkscape:label="Clip"
+         id="g11"
+         style="fill:#008a99;fill-opacity:1"
+         transform="matrix(1.2809616,0,0,1.2809616,-0.91373826,-15.132431)"
+         clip-path="url(#clipPath3)" />
+      <text
+         xml:space="preserve"
+         style="font-size:50.8px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#44b1be;stroke-width:0.264583"
+         x="8.764492"
+         y="37.080544"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-size:50.8px;stroke-width:0.264583"
+           x="8.764492"
+           y="37.080544" /></text>
+      <g
+         id="g13"
+         style="fill:#ffffff">
+        <text
+           xml:space="preserve"
+           style="font-size:45.1894px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#ffffff;fill-opacity:1;stroke-width:0.338921"
+           x="71.413918"
+           y="79.217339"
+           id="text5"><tspan
+             sodipodi:role="line"
+             id="tspan5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#ffffff;stroke-width:0.338921"
+             x="71.413918"
+             y="79.217339">elocity</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#ffffff;stroke-width:0.338921"
+             x="71.413918"
+             y="135.70409"
+             id="tspan6" /></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:45.1894px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#ffffff;fill-opacity:1;stroke-width:0.338921"
+           x="63.641403"
+           y="117.21609"
+           id="text7"><tspan
+             sodipodi:role="line"
+             id="tspan7"
+             style="fill:#ffffff;stroke-width:0.338921"
+             x="63.641403"
+             y="117.21609">ortex</tspan></text>
+      </g>
+      <g
+         id="g12"
+         style="fill:#ff7033;fill-opacity:1">
+        <g
+           id="g10"
+           style="fill:#ff7033;fill-opacity:1">
+          <text
+             xml:space="preserve"
+             style="font-size:182.757px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#ff7033;fill-opacity:1;stroke-width:0.685336"
+             x="-2.0528305"
+             y="176.09572"
+             id="text2"
+             transform="scale(1.1883701,0.8414887)"><tspan
+               sodipodi:role="line"
+               id="tspan2"
+               style="fill:#ff7033;fill-opacity:1;stroke-width:0.685336"
+               x="-2.0528305"
+               y="176.09572">V</tspan></text>
+          <g
+             id="g6"
+             style="fill:#ff7033;fill-opacity:1">
+            <path
+               style="fill:#ff7033;fill-opacity:1;stroke-width:0.338921"
+               d="m 55.329106,148.44473 1.83518,-9.1759 c 0,0 43.549094,-4.03416 81.111944,-17.50511 -20.53039,14.22235 -58.168758,25.90868 -82.947124,26.68101 z"
+               id="path26"
+               sodipodi:nodetypes="cccc" />
+            <g
+               id="g5"
+               style="fill:#ff7033;fill-opacity:1">
+              <path
+                 style="fill:#ff7033;fill-opacity:1;stroke-width:0.216612"
+                 d="m 57.853454,136.14123 1.120777,-6.20382 c 0,0 46.621109,-2.35752 80.788439,-9.92439 -18.79314,6.55733 -60.981758,15.10461 -81.909216,16.12821 z"
+                 id="path26-0"
+                 sodipodi:nodetypes="cccc" />
+              <path
+                 style="fill:#ff7033;fill-opacity:1;stroke-width:0.338921"
+                 d="m 59.755126,126.53054 1.295422,-7.12481 79.513012,-0.33604 c 0,0 -37.30377,6.16542 -80.808434,7.46085 z"
+                 id="path27"
+                 sodipodi:nodetypes="cccc" />
+            </g>
+          </g>
+        </g>
+        <path
+           style="fill:#ff7033;fill-opacity:1;stroke-width:0.370375"
+           d="m 75.606219,30.663294 c 0,0 -2.658935,6.454994 -3.206026,9.226356 33.769777,-3.885944 91.099367,13.210697 91.099367,13.210697 0,0 -33.11795,-20.579808 -87.893341,-22.437053 z"
+           id="path27-6"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Logo Prototype-2</dc:title>
+        <dc:date>25/07/2024</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Riley hutchinson</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>English</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
