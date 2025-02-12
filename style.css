@@ -1,8 +1,18 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
 /* General Navbar Styling */
 .navbar {
     list-style: none;
     display: flex;
-    justify-content: center; /* Always center items */
+    justify-content: center;
     align-items: center;
     background: #222;
     padding: 4% 0; /* Bigger navbar */
@@ -20,7 +30,7 @@
 
 .navlink {
     text-decoration: none;
-    color: white;
+    color: white !important; /* Ensures white text */
     font-size: 20px; /* Bigger text */
     padding: 12px 16px; /* Bigger clickable area */
     transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
@@ -40,8 +50,247 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
-        padding: 5% 10px; /* Ensures proper spacing */
-        overflow-x: auto; /* Enables horizontal scrolling if needed */
-        justify-content: center; /* Keeps items centered on smaller screens */
+        padding: 5% 10px;
+        overflow-x: auto;
+        justify-content: center;
     }
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #222, #444);
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff7033;
+    color: white;
+    padding: 14px 22px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #e6602a;
+    transform: scale(1.05);
+}
+
+/* Section Styling */
+.about, .what-we-do, .sponsorship {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ff7033;
+}
+
+/* What We Do - Service Cards */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    min-width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #222;
+    color: #bbb;
+}
+
+/* Photo Grid Section */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* About Me Section (Integrated with Image) */
+.about-me {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 1000px;
+    margin: 40px auto;
+    color: white;
+}
+
+.about-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff7033;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* About Me Grid Layout */
+.about-me-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-me-grid .item {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-me-grid .item:hover {
+    transform: scale(1.05);
+}
+
+.about-me-grid .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-me-grid .item h3 {
+    font-size: 1.5rem;
+    color: #ff7033;
+    margin-bottom: 10px;
+}
+
+.about-me-grid .item p {
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 40px auto;
+    color: white;
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    color: #ff7033;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs and Textarea */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: #444;
+    border-color: #ff7033;
+    outline: none;
+}
+
+/* Submit Button */
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #ff7033;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #e6602a;
+}
+
+/* Success/Failure Message */
+.contact-form .message {
+    font-size: 1rem;
+    color: #bbb;
+    margin-top: 20px;
+}
+
+.contact-form .message.success {
+    color: #4CAF50;
+}
+
+.contact-form .message.error {
+    color: #f44336;
 }
