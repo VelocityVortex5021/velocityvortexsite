@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/x-icon" href="logo.svg">
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Velocity Vortex - Contact</title>
@@ -42,10 +42,11 @@
             </form>
         </section>
     </main>
-
+    
     <script>
+        // Dont touch this, it is magic that it works.
         (function(){
-            emailjs.init("emLMPxbB1jZiy7Dop"); // Replace with your EmailJS user ID
+            emailjs.init("emLMPxbB1jZiy7Dop");
         })();
         document.getElementById("contact-form").addEventListener("submit", function(event){
             event.preventDefault();
