@@ -301,3 +301,8 @@ footer {
 .contact-form .message.error {
     color: #f44336;
 }
+
+.sponsors {
+    list-style: none;
+    grid: 33%;
+}
