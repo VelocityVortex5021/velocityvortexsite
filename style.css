@@ -15,30 +15,36 @@ body {
     justify-content: center;
     align-items: center;
     background: #222;
-    padding: 4% 0; /* Bigger navbar */
+    padding: 1% 0; /* Bigger navbar */
     margin: 0;
-    gap: 30px; /* More spacing between items */
+    gap: 1%; /* More spacing between items */
     flex-wrap: nowrap; /* Prevent stacking */
     overflow-x: auto; /* Allows scrolling if necessary */
     white-space: nowrap; /* Prevents text wrapping */
 }
 
 .navitem {
+    color: white;
     margin: 0;
     min-width: max-content; /* Prevents items from shrinking too much */
+    transition:
+        transform 0.1s ease-in-out,
+        color 0.1s ease-in-out;
 }
 
 .navlink {
     text-decoration: none;
-    color: white !important; /* Ensures white text */
+    color: white !important; /* ENsures White Text */
     font-size: 20px; /* Bigger text */
     padding: 12px 16px; /* Bigger clickable area */
-    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    transition:
+        font-color 0.3s ease-in-out,
+        transform 0.2s ease-in-out;
 }
 
-.navlink:hover {
+.navitem:hover {
+    transform: scale(1.3);
     color: #ff7033;
-    transform: scale(1.1);
 }
 
 /* Active Page Highlight */
@@ -58,11 +64,11 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #222, #444);
     padding: 100px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: "images/renderp3.jpg";
 }
 
 .hero-content {
@@ -88,7 +94,9 @@ body {
     text-decoration: none;
     font-size: 18px;
     border-radius: 8px;
-    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    transition:
+        background 0.3s ease-in-out,
+        transform 0.2s ease-in-out;
 }
 
 .cta-button:hover {
@@ -97,7 +105,9 @@ body {
 }
 
 /* Section Styling */
-.about, .what-we-do, .sponsorship {
+.about,
+.what-we-do,
+.sponsorship {
     padding: 60px 20px;
     max-width: 900px;
     margin: auto;
@@ -138,7 +148,7 @@ footer {
 
 /* Team Photo */
 /*#team-photo {
-   
+
 }*/
 
 /* Photo Grid Section */
@@ -250,7 +260,8 @@ footer {
 }
 
 /* Form Inputs and Textarea */
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 14px;
     margin-bottom: 20px;
@@ -259,10 +270,13 @@ footer {
     background-color: #333;
     color: white;
     font-size: 1rem;
-    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    transition:
+        background-color 0.3s ease-in-out,
+        border-color 0.3s ease-in-out;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
     background-color: #444;
     border-color: #ff7033;
     outline: none;
@@ -281,8 +295,6 @@ footer {
     transition: background-color 0.3s ease-in-out;
 }
 
-
-
 .contact-form button:hover {
     background-color: #e6602a;
 }
@@ -295,9 +307,41 @@ footer {
 }
 
 .contact-form .message.success {
-    color: #4CAF50;
+    color: #4caf50;
 }
 
 .contact-form .message.error {
     color: #f44336;
+}
+
+.sponsors {
+    list-style: none;
+    grid: auto-flow / 1fr 1fr 1fr;
+}
+
+/* Team Members & Team Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px auto;
+    max-width: 90%;
+    padding: 0 20px;
+}
+
+.team-member {
+    background: #222;
+    padding: 12px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.team-member:hover {
+    transform: scale(1.02);
+}
+
+.team-member img {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
 }

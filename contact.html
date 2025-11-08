@@ -1,67 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="icon" type="image/x-icon" href="images/logo.svg">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velocity Vortex - Contact</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="navbar">
-                <li class="navitem"><a class="navlink" href="index.html">Home</a></li>
-                <li class="navitem"><a class="navlink" href="about.html">About</a></li>
-                <li class="navitem"><a class="navlink current" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <link rel="icon" type="image/x-icon" href="images/logo_png.png" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Velocity Vortex - Contact</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <img
+                            id="navlogo"
+                            src="images/logo_png.png"
+                            width="96px"
+                        />
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink" href="index.html">Home</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink" href="about.html">About</a>
+                    </li>
+                    <li class="navitem">
+                        <a class="navlink current" href="contact.html"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <section class="contact-form">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+        <main>
+            <section class="contact-form">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
 
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" />
 
-                <label for="purpose">Purpose:</label>
-                <input type="text" id="purpose" name="purpose" required>
+                    <label for="purpose">Purpose:</label>
+                    <input type="text" id="purpose" name="purpose" required />
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-    
-    <script>
-        // Dont touch this, it is magic that it works.
-        (function(){
-            emailjs.init("emLMPxbB1jZiy7Dop");
-        })();
-        document.getElementById("contact-form").addEventListener("submit", function(event){
-            event.preventDefault();
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
 
-            const form = event.target;
+        <script>
+            // Dont touch this, it is magic that it works.
+            (function () {
+                emailjs.init("emLMPxbB1jZiy7Dop");
+            })();
+            document
+                .getElementById("contact-form")
+                .addEventListener("submit", function (event) {
+                    event.preventDefault();
 
-            emailjs.sendForm("service_dyhqveu", "template_vvvhr1w", form)
-                .then((response) => {
-                    alert("Message sent successfully!");
-                })
-                .catch((error) => {
-                    alert("Error sending message. Please try again later.");
-                    console.error(error);
+                    const form = event.target;
+
+                    emailjs
+                        .sendForm("service_dyhqveu", "template_vvvhr1w", form)
+                        .then((response) => {
+                            alert("Message sent successfully!");
+                        })
+                        .catch((error) => {
+                            alert(
+                                "Error sending message. Please try again later.",
+                            );
+                            console.error(error);
+                        });
                 });
-        });
-    </script>
-</body>
+        </script>
+        <!-- Footer -->
+        <footer>
+            <p>2025 Velocity Vortex.</p>
+        </footer>
+    </body>
 </html>
