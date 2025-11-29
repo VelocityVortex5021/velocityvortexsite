@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 /* General Page Styling */
+html,
 body {
-    font-family: Arial, sans-serif;
+    height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Ubuntu;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     background-color: #111;
     color: white;
     text-align: center;
@@ -34,7 +43,7 @@ body {
 
 .navlink {
     text-decoration: none;
-    color: white !important; /* ENsures White Text */
+    color: white !important; /* Ensures White Text */
     font-size: 20px; /* Bigger text */
     padding: 12px 16px; /* Bigger clickable area */
     transition:
@@ -145,11 +154,6 @@ footer {
     background: #222;
     color: #bbb;
 }
-
-/* Team Photo */
-/*#team-photo {
-
-}*/
 
 /* Photo Grid Section */
 .photo-grid {
@@ -334,6 +338,13 @@ footer {
     padding: 12px;
     text-align: center;
     transition: transform 0.2s ease-in-out;
+    max-height: 98%;
+    border-radius: 10px;
+}
+
+.team-member p {
+    border-radius: 10px;
+    background: #111111;
 }
 
 .team-member:hover {
@@ -344,4 +355,106 @@ footer {
     width: 100%; /* Set the width to 100% of the container */
     height: auto; /* Maintains the aspect ratio */
     object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px;
+}
+
+/* Folio Styling */
+.folio-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(30rem, 1fr)
+    ); /* Dynamic columns */
+    gap: 30px; /* Small gap */
+    margin: 20px auto; /* Minimal margin */
+    width: 98%; /* Use almost full width */
+    padding: 0 5px; /* Minimal side padding */
+}
+
+.folio {
+    background: #222;
+    padding: 8px; /* Minimal padding */
+    border-radius: 10px;
+    overflow: initial; /* Prevents image overflow */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+}
+
+.folio img {
+    width: 100%;
+    object-fit: contain; /* Fills the space */
+    border-radius: 4px;
+}
+
+.folio p {
+    margin: 6px 0 0; /* Minimal text spacing */
+    padding: 0 5px;
+}
+.folio a {
+    color: #ff7033;
+    text-decoration: none;
+}
+
+.folio:hover {
+    transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #222;
+    color: #bbb;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+#team-photo {
+    max-width: 50%; /* Limits the container width */
+    margin: 0 auto; /* Centers the container itself */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if needed) */
+}
+
+#team-photo img {
+    width: 100%; /* Makes the image fill the container */
+    max-width: 100%; /* Ensures the image doesn't overflow */
+    display: block; /* Removes extra space below the image */
+    border-radius: 10px;
+}
+
+#folio-intro {
+    max-width: 50%;
+    margin: 0 auto; /* Centers the container itself */
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(30rem, 1fr)
+    ); /* Dynamic columns */
+    gap: 30px; /* Small gap */
+    margin: 20px auto; /* Minimal margin */
+    width: 95%; /* Use almost full width */
+    padding: 12px; /* Minimal side padding */
+    background: #222;
+    border-radius: 10px;
+}
+
+.sponsor {
+    width: 100%; /* Uses full width of the grid cell */
+    min-width: unset; /* Removes fixed minimum width */
+    margin: 0; /* Removes default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    background: #fff;
+    max-width: 300px; /* Limits image size */
 }
